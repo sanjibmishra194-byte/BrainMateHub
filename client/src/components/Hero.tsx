@@ -21,21 +21,25 @@ export function Hero() {
           50+ free calculators and tools designed for students and everyone. From GPA tracking to currency conversion, we've got you covered.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button
-            size="lg"
-            className="px-8 py-6 text-lg backdrop-blur-sm bg-primary/90 hover:bg-primary border border-primary-border"
-            data-testid="button-explore-tools"
-          >
-            Explore Tools
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="px-8 py-6 text-lg backdrop-blur-sm bg-white/10 hover:bg-white/20 text-white border-white/30"
-            data-testid="button-learn-more"
-          >
-            Learn More
-          </Button>
+          <a href="#tools">
+            <Button
+              size="lg"
+              className="px-8 py-6 text-lg backdrop-blur-sm bg-primary/90 hover:bg-primary border border-primary-border"
+              data-testid="button-explore-tools"
+            >
+              Explore Tools
+            </Button>
+          </a>
+          <a href="/about">
+            <Button
+              size="lg"
+              variant="outline"
+              className="px-8 py-6 text-lg backdrop-blur-sm bg-white/10 hover:bg-white/20 text-white border-white/30"
+              data-testid="button-learn-more"
+            >
+              Learn More
+            </Button>
+          </a>
         </div>
       </div>
     </section>

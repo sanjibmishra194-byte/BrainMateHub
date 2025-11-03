@@ -6,8 +6,8 @@ export function Footer() {
     tools: [
       { label: "GPA Calculator", href: "/tools/gpa-calculator" },
       { label: "Word Counter", href: "/tools/word-counter" },
-      { label: "BMI Calculator", href: "#" },
-      { label: "Currency Converter", href: "#" },
+      { label: "BMI Calculator", href: "/tools/bmi-calculator" },
+      { label: "Currency Converter", href: "/tools/currency-converter" },
     ],
     resources: [
       { label: "Blog", href: "#blog" },

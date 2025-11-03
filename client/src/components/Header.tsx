@@ -11,8 +11,8 @@ export function Header() {
     { label: "Home", href: "/" },
     { label: "Tools", href: "/#tools" },
     { label: "Blog", href: "/#blog" },
-    { label: "Resources", href: "/#resources" },
-    { label: "Contact", href: "/#contact" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" },
   ];
 
   return (
