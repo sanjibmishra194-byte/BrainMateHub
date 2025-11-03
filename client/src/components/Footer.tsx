@@ -4,20 +4,20 @@ import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
 export function Footer() {
   const footerLinks = {
     tools: [
-      { label: "GPA Calculator", href: "#" },
-      { label: "Word Counter", href: "#" },
+      { label: "GPA Calculator", href: "/tools/gpa-calculator" },
+      { label: "Word Counter", href: "/tools/word-counter" },
       { label: "BMI Calculator", href: "#" },
       { label: "Currency Converter", href: "#" },
     ],
     resources: [
       { label: "Blog", href: "#blog" },
       { label: "Guides", href: "#" },
-      { label: "Contact", href: "#contact" },
+      { label: "Contact", href: "/contact" },
       { label: "Support", href: "#" },
     ],
     company: [
-      { label: "About Us", href: "#" },
-      { label: "Privacy Policy", href: "#" },
+      { label: "About Us", href: "/about" },
+      { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "#" },
       { label: "Cookie Policy", href: "#" },
     ],
