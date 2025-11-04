@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+<<<<<<< HEAD code .gitignore
+.local/state/replit/agent/
+
 node_modules
 dist
 .DS_Store
